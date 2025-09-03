@@ -46,12 +46,28 @@ At each round $$t \in T$$:
   <tr>
     <td valign="top" align="center">
         <h4>UCB1</h4>
-      <img src="data/Screenshot 2025-06-06 182006.png" alt="Screenshot 1" width="400"/>
+      <img src="data/UCB1_no_budget.png" alt="Screenshot 1" width="400"/>
       <br/>
     </td>
     <td valign="top" align="center">
-        <h4>Generative chatbot</h4>
-      <img src="data/Screenshot 2025-06-06 181826.png" alt="Screenshot 2" width="400"/>
+        <h4>UCB1_with_budget</h4>
+      <img src="data/UCB1_with_budget.png" alt="Screenshot 2" width="400"/>
+      <br/>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+## Requirement 2: Multiple products and stochastic environment
+Build a **stochastic** environment: a joint distribution over the valuations of all the types of products. Build a pricing strategy using Combinatorial-UCB **with the inventory constraint**.
+So, the environment includes a **logit-normal** distribution to deal with multiple products and joint valuations. The **Combinatorial UCB** has been extended with **Gaussian Processes (GP)** for the selection of prices.
+The regret is **sublinear**.
+<table>
+  <tr>
+    <td valign="top" align="center">
+        <h4>CombUCB-GP</h4>
+      <img src="data/CombUCB-GP.png" alt="Screenshot 1" width="400"/>
       <br/>
     </td>
   </tr>
