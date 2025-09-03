@@ -67,7 +67,7 @@ The regret is **sublinear**.
   <tr>
     <td valign="top" align="center">
         <h4>CombUCB-GP</h4>
-      <img src="data/CombUCB-GP.png" alt="Screenshot 1" width="400"/>
+      <img src="data/CombUCB_GP.png" alt="Screenshot 1" width="400"/>
       <br/>
     </td>
   </tr>
