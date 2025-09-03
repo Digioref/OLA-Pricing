@@ -74,3 +74,56 @@ The regret is **sublinear**.
 </table>
 
 </div>
+
+## Requirement 3: Best-of-both-worlds algorithms with a single product
+Build a **highly non-stationary stochastic** environment: a sequence of valuations of the product (e.g., sampled from a distribution that changes **quickly** over time). Build a pricing strategy using a primal-dual method **with the inventory constraint**.
+So, the environment includes different distributions whose non-stationarity is achieved thorugh means **jumps, spikes, drifts**. The **Primal-Dual** algorithm is based on the **EXP3.P** algorithm, that is suitable for dynamic pricing in non-stationary environment. The achieved regret is **sublinear**.
+For further information, visit https://cesa-bianchi.di.unimi.it/Pubblicazioni/J18.pdf.
+<table>
+  <tr>
+    <td valign="top" align="center">
+        <h4>Primal-Dual</h4>
+      <img src="data/Primal_Dual_non_stationary.png" alt="Screenshot 1" width="400"/>
+      <br/>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+## Requirement 4: Best-of-both-worlds with multiple products
+ Build a **highly non-stationary stochastic** environment: a sequence of correlated valuations for each type of product (e.g., sampled from a distribution that changes **quickly** over time).  Build a pricing strategy using a primal-dual method **with the inventory constraint**. So, the environment includes a **logit-normal** distribution to deal with multiple products and joint valuations and **drifting means** to represent non-stationarity. The **Primal-Dual** algorithm is based on the **EXP3.P** algorithm, that is suitable for dynamic pricing in non-stationary environment, having a EXP3.P agent for each product. The achieved regret is **sublinear**.
+ <table>
+  <tr>
+    <td valign="top" align="center">
+        <h4>Primal-Dual</h4>
+      <img src="data/Primal_Dual_multiple_products.png" alt="Screenshot 1" width="400"/>
+      <br/>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+## Requirement 5: Slightly non-stationary environments with multiple products
+ Build a **slightly non-stationary stochastic** environment for the pricing problem:
+ - Rounds are partitioned in intervals
+ - In each interval the distribution of products valuations is fixed
+ - Each interval has a different distribution
+Extend Combinatorial-UCB with sliding window and compare its performance with the performance of Primal-Dual method. Given the extended algorithm with SW of requirement 2 and Primal-Dual algorithm of requirement 4, they were compared against each other on the new environment. The achieved regret is **sublinear**.
+<table>
+  <tr>
+    <td valign="top" align="center">
+        <h4>CombUCB-GP-SW</h4>
+      <img src="data/CombUCB_GP_SW.png" alt="Screenshot 1" width="400"/>
+      <br/>
+    </td>
+    <td valign="top" align="center">
+        <h4>Primal_Dual vs CombUCB-GP-SW</h4>
+      <img src="data/Primal_Dual_vs_CombUCB.png" alt="Screenshot 2" width="400"/>
+      <br/>
+    </td>
+  </tr>
+</table>
+
+</div>
