@@ -9,15 +9,16 @@
 | 5. Requirement 5: Slightly non-stationary environments with multiple products | ![](https://geps.dev/progress/100) | Sublinear regret and relevant comparison |
 | Presentation | ![](https://geps.dev/progress/20) |
 
-## Introduction
-This is the repository for the Project of Online Learning Applications in the academic year 2024/2025.
-The Project was developed by:
+## Authors
+This Project was developed by:
 - Carminati Gabriele
 - Compagnoni Riccardo Domingo
 - De Introna Federico
 - Di Giore Francesco
 - Fossa' Chiara
 
+## Introduction
+This is the repository for the Project of Online Learning Applications in the academic year 2024/2025.
 The project includes 5 requirements to analyze various algorithms in different scenarios:
 1. Single product and stochastic environment
 2. Multiple products and stochastic environment
@@ -25,7 +26,12 @@ The project includes 5 requirements to analyze various algorithms in different s
 4. Best-of-both-worlds with multiple products
 5. Slightly non-stationary environments with multiple products
 
-## General features of the project
+## Features
+- **Sublinear regret**: all the algorithms achieve sublinear regret in different environments and after multiple trials, being robust and consistent.
+- **Self-contained notebooks**: it is sufficient to export the notebooks in a working python/jupyter environment and run them.
+- **Meaningful analyses**: each algorithm has been analyzed and tested taking into account several different cases, with different parameters and behaviors.  
+
+## General setting of the project
 The goal of the project is to design online learning algorithms to sell multiple types of products under production constraints.
 #### Parameters
 - Number of rounds T
@@ -112,6 +118,7 @@ For further information, visit https://cesa-bianchi.di.unimi.it/Pubblicazioni/J1
  - Rounds are partitioned in intervals
  - In each interval the distribution of products valuations is fixed
  - Each interval has a different distribution
+
 Extend Combinatorial-UCB with sliding window and compare its performance with the performance of Primal-Dual method. Given the extended algorithm with SW of requirement 2 and Primal-Dual algorithm of requirement 4, they were compared against each other on the new environment. The achieved regret is **sublinear**.
 <table>
   <tr>
