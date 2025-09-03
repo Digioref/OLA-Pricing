@@ -16,6 +16,7 @@ The Project was developed by:
 - De Introna Federico
 - Di Giore Francesco
 - Fossa' Chiara
+
 The project includes 5 requirements to analyze various algorithms in different scenarios:
 1. Single product and stochastic environment
 2. Multiple products and stochastic environment
