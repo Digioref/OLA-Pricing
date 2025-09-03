@@ -1,4 +1,4 @@
-# OLA-Pricing
+# Online Learning Applications: Dynamic Pricing
 ## Status of the Work
 | Requirement | Stato di completamento | Note |
 | :--- | :--- | :--- |
