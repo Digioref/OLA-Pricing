@@ -18,7 +18,8 @@ This Project was developed by:
 - Fossa' Chiara
 
 ## Introduction
-This is the repository for the Project of Online Learning Applications in the academic year 2024/2025.
+This is the repository for the Project of Online Learning Applications in the academic year 2024/2025 at Polytechnic of Milan.
+
 The project includes 5 requirements to analyze various algorithms in different scenarios:
 1. Single product and stochastic environment
 2. Multiple products and stochastic environment
