@@ -27,6 +27,8 @@ The project includes 5 requirements to analyze various algorithms in different s
 4. Best-of-both-worlds with multiple products
 5. Slightly non-stationary environments with multiple products
 
+To have an overview of the Project, please see the [presentation](Presentation/OLA_Project.pdf).
+
 ## Features
 - **Sublinear regret**: all the algorithms achieve sublinear regret in different environments and after multiple trials, being robust and consistent.
 - **Self-contained notebooks**: it is sufficient to export the notebooks in a working python/jupyter environment and run them.
