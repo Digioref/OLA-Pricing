@@ -33,7 +33,7 @@ The project includes 5 requirements to analyze various algorithms in different s
 - **Meaningful analyses**: each algorithm has been analyzed and tested taking into account several different cases, with different parameters and behaviors.  
 
 ## General setting of the project
-The goal of the project is to design online learning algorithms to sell multiple types of products under production constraints.
+The goal of the project is to design online learning algorithms to sell multiple types of products under production constraints. See project.pdf for detailed information.
 #### Parameters
 - Number of rounds T
 - Number of types of products N
