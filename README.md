@@ -7,7 +7,7 @@
 | 3. Requirement 3: Best-of-both-worlds algorithms with a single product | ![](https://geps.dev/progress/100) | Sublinear regret |
 | 4. Requirement 4: Best-of-both-worlds with multiple products | ![](https://geps.dev/progress/100) | Sublinear regret |
 | 5. Requirement 5: Slightly non-stationary environments with multiple products | ![](https://geps.dev/progress/100) | Sublinear regret and relevant comparison |
-| Presentation | ![](https://geps.dev/progress/90) | Maybe make some small imporvements |
+| Presentation | ![](https://geps.dev/progress/100) | |
 
 ## Authors
 This Project was developed by:
