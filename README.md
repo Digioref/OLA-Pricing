@@ -11,11 +11,11 @@
 
 ## Authors
 This Project was developed by:
-- Carminati Gabriele
-- Compagnoni Riccardo Domingo
-- De Introna Federico
-- Di Giore Francesco
-- Fossa' Chiara
+- Carminati Gabriele [@carmigab](https://github.com/carmigab)
+- Compagnoni Riccardo Domingo [@riccardocompagnoni](https://github.com/riccardocompagnoni)
+- De Introna Federico [@federicodeintrona](https://github.com/federicodeintrona)
+- Di Giore Francesco [@Digioref](https://github.com/Digioref)  
+- Fossa' Chiara [@keira-ph](https://github.com/keira-ph)
 
 ## Introduction
 This is the repository for the Project of Online Learning Applications in the academic year 2024/2025 at Polytechnic of Milan.
