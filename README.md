@@ -20,6 +20,12 @@ This Project was developed by:
 ## Introduction
 This is the repository for the Project of Online Learning Applications in the academic year 2024/2025 at Polytechnic of Milan.
 
+Subject: 062534 - Online Learning Applications
+
+Professor: Castiglioni Matteo
+
+Academic Year: 2024/2025
+
 The project includes 5 requirements to analyze various algorithms in different scenarios:
 1. Single product and stochastic environment
 2. Multiple products and stochastic environment
