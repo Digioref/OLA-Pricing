@@ -147,4 +147,4 @@ Extend Combinatorial-UCB with sliding window and compare its performance with th
 </div>
 
 ## Final Considerations
-Final Score: 16/16
+Final Mark: 16/16
