@@ -145,3 +145,6 @@ Extend Combinatorial-UCB with sliding window and compare its performance with th
 </table>
 
 </div>
+
+## Final Considerations
+Final Mark: 16/16
