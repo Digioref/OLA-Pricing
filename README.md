@@ -9,14 +9,6 @@
 | 5. Requirement 5: Slightly non-stationary environments with multiple products | ![](https://geps.dev/progress/100) | Sublinear regret and relevant comparison |
 | Presentation | ![](https://geps.dev/progress/100) | |
 
-## Authors
-This Project was developed by:
-- Carminati Gabriele [@carmigab](https://github.com/carmigab)
-- Compagnoni Riccardo Domingo [@riccardocompagnoni](https://github.com/riccardocompagnoni)
-- De Introna Federico [@federicodeintrona](https://github.com/federicodeintrona)
-- Di Giore Francesco [@Digioref](https://github.com/Digioref)  
-- Fossa' Chiara [@keira-ph](https://github.com/keira-ph)
-
 ## Introduction
 This is the repository for the Project of Online Learning Applications in the academic year 2024/2025 at Polytechnic of Milan.
 
@@ -148,3 +140,11 @@ Extend Combinatorial-UCB with sliding window and compare its performance with th
 
 ## Final Considerations
 Final Mark: 16/16
+
+## Authors
+This Project was developed by:
+- Carminati Gabriele [@carmigab](https://github.com/carmigab)
+- Compagnoni Riccardo Domingo [@riccardocompagnoni](https://github.com/riccardocompagnoni)
+- De Introna Federico [@federicodeintrona](https://github.com/federicodeintrona)
+- Di Giore Francesco [@Digioref](https://github.com/Digioref)  
+- Fossa' Chiara [@keira-ph](https://github.com/keira-ph)
