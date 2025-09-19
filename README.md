@@ -1,6 +1,6 @@
 # Online Learning Applications: Dynamic Pricing
 ## Status of the Work
-| Requirement | Stato di completamento | Note |
+| Requirement | Progress Status | Notes |
 | :--- | :--- | :--- |
 | 1. Requirement 1: Single product and stochastic environment | ![](https://geps.dev/progress/100) | Sublinear regret |
 | 2. Requirement 2: Multiple products and stochastic environment | ![](https://geps.dev/progress/100) | Sublinear regret  |
